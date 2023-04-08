@@ -64,3 +64,15 @@ p[data-color='blue']::before {
 p[data-color='red']::before {
     background-color: red;
 }
+
+p[draggable]:hover {
+    cursor:grabbing;
+}
+
+p[draggable]::before {
+    content: "👉";
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #000;
+}
