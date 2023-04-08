@@ -36,7 +36,7 @@ textarea {
     padding: 10px;
 }
 
-textarea + textarea {
+textarea + textarea, input + input {
     margin-top: 5px;
 }
 
